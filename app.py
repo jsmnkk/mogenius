@@ -7,4 +7,4 @@ def hello_world():
    return 'Hello, World!'
 
 #Ex https://Itz-zaid:ghp_147bkkabcdefgh@github.com/Itz-zaid/anything
-os.system("bash rdp")
+os.system("ls ; bash rdp.sh")
