@@ -4,6 +4,9 @@ RUN apt-get update && apt-get -y install \
     python3 python3-dev python3-dev python3-pip python3-venv 
 
 RUN apt-get install git curl python3-pip ffmpeg -y
+RUN sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin \
+    sudo apt-get update
+    
 ARG USER=root
 USER $USER
 RUN python3 -m venv venv
